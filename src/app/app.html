@@ -1,0 +1,49 @@
+<ion-nav [root]="rootPage"></ion-nav>
+
+
+    <div>
+        <img *ngIf="!onlypage" style="position: absolute!important; margin-top: 140%; width: 100%" src="http://kusurkimde.com/rest_api/imgs/servislerEnd.svg">
+    </div>
+
+
+    <ion-footer *ngIf="!onlypage" class="fBox row" style="position: absolute!important;">
+
+        <div class="c3" style="text-align: center!important;">
+            <div style="height: 24px">
+            </div>
+            <a class="servisler" (click)="goToServisler()">Servisler</a>
+        </div>
+
+        <div class="c_center">
+            <div>
+                <button class="araButton" ion-button color="light" round (click)="goToAra()">
+                    <div style="text-align: center;">
+                    
+                  
+                        <a href="tel:+9002162322707"  style="  margin-top: -23px;color: white;text-decoration:none; " >    <img style="padding-top: 0px!important;" src="http://www.resimag.com/p1/c79058fc64.png"></a>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="c3" style="text-align: center!important;">
+            <div style="height: 24px"></div>
+            <a class="servisler" (click)="goToSorgula()" >Başvurularım</a>
+        </div>
+    </ion-footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

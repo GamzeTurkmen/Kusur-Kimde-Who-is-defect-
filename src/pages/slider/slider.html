@@ -1,0 +1,51 @@
+<ion-content class="tutorial-page">
+
+  <ion-slides pager (ionSlideDidChange)="slideChanged()">
+    <ion-slide *ngFor="let slide of slides1">
+      <img [src]="slide.image" class="slide-image"/>
+      <p class="description" [innerHTML]="slide.description" ></p>
+      <ion-row>
+        <ion-col>
+          <button ion-button round class="prev" (click)="prev()">GER&#304;</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button round  class="next" (click)="next()">&#304;LER&#304;</button>
+        </ion-col>
+      </ion-row>
+    </ion-slide>
+
+    <ion-slide *ngFor="let slide of slides2">
+      <img [src]="slide.image" class="slide-image"/>
+      <p [innerHTML]="slide.description" style="font-size: 20px; margin-top: 15%"></p>
+      <ion-row>
+        <ion-col>
+          <button ion-button round class="prevO" (click)="prev()">GER&#304;</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button round  class="nextO" (click)="next()">&#304;LER&#304;</button>
+        </ion-col>
+      </ion-row>
+    </ion-slide>
+
+
+    <ion-slide *ngFor="let slide of slides3">
+      <img [src]="slide.image" class="slide-image"/>
+      <p [innerHTML]="slide.description" style="font-size: 20px; margin-top: 15%"></p>
+      <ion-row>
+        <ion-col>
+          <button ion-button round class="prev" (click)="prev()">GER&#304;</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button round  class="next" (click)="goLoginPage()">&#304;LER&#304;</button>
+        </ion-col>
+      </ion-row>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+
+
+
+<ion-footer style="text-align: center">
+  <p style="color: #9890AB; font-size: 13px">Hesabım var? <button style="color: #F00A0A; background:none; font-size: 13px" (click)="goLoginPage()">Giriş Yap</button></p>
+</ion-footer>
+

@@ -1,0 +1,167 @@
+
+
+
+<ion-content style="overflow-y:auto !important;">
+  <img  style="position: absolute;" src="https://kusurkimde.com/rest_api/imgs/loginBack.svg">
+  <div style="margin-top: 60%">
+    <ion-list >
+      <ion-row style="height: 150px; width: 250px;margin-top: -80px; margin-left: 45px">
+        <ion-row style="margin-top: 100px">
+          <ion-label>Telefon</ion-label>
+        </ion-row>
+        <ion-item>
+          <ion-label><img  margin-left="2px" class="myIcon" src="https://kusurkimde.com/rest_api/imgs/iconKullanici.svg"></ion-label>
+          <ion-input [(ngModel)]="tel" (keydown)="onKeydown($event)" (focus)="true" clearInput="true"  id="myInput" placeholder="Telefon" type="text"></ion-input>
+        </ion-item>
+      </ion-row>
+
+      <ion-row style="width: 250px; margin-top: -50px;margin-left: 45px">
+        <ion-row style="margin-top: 40%;">
+          <ion-label>Parola</ion-label>
+        </ion-row>
+        <ion-item>
+            
+          <ion-label>
+            <!--<img  margin-left="2px" class="myIcon" src="http://kusurkimde.com/rest_api/imgs/iconPass.svg">-->
+            <img  margin-left="2px" class="myIcon" src="{{ imgSrc }}">
+          </ion-label>
+          <ion-input [(ngModel)]="pass" clearInput="true" placeholder="Şifreniz" type="password"></ion-input>
+        </ion-item>
+      </ion-row>
+    </ion-list>
+
+    <ion-list style="margin-top: 12%;">
+      <ion-row>
+        <ion-col style="text-align: center">
+          <button  ion-button class="login" style="  background-color: #F00A0A" round  (click)="goToServisler()">G&#304;R&#304;&#350; YAP</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col style="text-align: center">
+          <button style="color: #FF0000; background:none">Şifremi Unuttum!</button>
+        </ion-col>
+      </ion-row>
+    </ion-list>
+  </div>
+</ion-content>
+
+
+
+
+
+
+
+
+
+<!--
+<ion-content>
+  <img  style="position: fixed;" src="http://kusurkimde.com/rest_api/imgs/loginBack.svg">
+
+
+  <div class="box">
+    <ion-list>
+
+      <div style="border-radius: 7px;box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);">
+      <ion-row>
+        <ion-col>
+          <button ion-button  style="background:none; color: red" (click)="goToLogin()">Giriş Yap</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button style="background:none; color: red" (click)="goToUyeOl()">Üye Ol</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button  style="background:none; color: red" (click)="goToLoginYetkili()">Yetkili Girişi</button>
+        </ion-col>
+      </ion-row>
+      </div>
+
+
+      <ion-item style="border-radius: 7px;box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);">
+        <ion-tabs>
+          <ion-tab [root]="tab1Root" tabTitle="Giriş Yap"         tabIcon="home"></ion-tab>
+          <ion-tab [root]="tab2Root" tabTitle="Üye Ol"            tabIcon="information-circle" (ionSelect)="goToUyeOl()"></ion-tab>
+          <ion-tab [root]="tab3Root" tabTitle="Yetkili Girişi"    tabIcon="contacts" (ionSelect)="goToLoginYetkili()"></ion-tab>
+        </ion-tabs>
+      </ion-item>
+
+
+
+
+      <super-tabs>
+        <super-tab [root]="tab1Root" title="Giriş Yap"         icon="home"  ></super-tab>
+        <super-tab [root]="tab2Root" title="Üye Ol"            icon="information-circle"></super-tab>
+        <super-tab [root]="tab3Root" title="Yetkili Girişi"    icon="contacts" ></super-tab>
+      </super-tabs>
+
+
+
+
+      <ion-list inset>
+
+        <ion-row>
+          <ion-row>
+            <ion-label>Telefon</ion-label>
+          </ion-row>
+          <ion-item>
+            <ion-label><img  margin-left="2px" style="height: 12.46px; width: 12px" src="http://kusurkimde.com/rest_api/imgs/iconKullanici.svg"></ion-label>
+            <ion-input [(ngModel)]="tel" clearInput="true"  id="myInput" placeholder="Telefon" type="text"></ion-input>
+          </ion-item>
+        </ion-row>
+
+
+
+        <ion-row>
+          <ion-row>
+            <ion-label>Parola</ion-label>
+          </ion-row>
+          <ion-item>
+            <ion-label><img  margin-left="2px" style="height: 12.46px; width: 12px;font-size: 15px" src="http://kusurkimde.com/rest_api/imgs/iconPass.svg"></ion-label>
+            <ion-input [(ngModel)]="pass"  clearInput="true" placeholder="Şifreniz" type="password"></ion-input>
+          </ion-item>
+        </ion-row>
+
+      </ion-list>
+
+
+
+
+
+
+
+      <ion-list style="margin-top: 15%;">
+        <ion-row>
+          <ion-col style="text-align: center">
+            <button ion-button style="width:196px; height:44px;box-shadow: 0px 0px 20px 5px rgba(255,0,0,0.20); background-color: #ff0a0a" round (click)="goToServisler()">Giriş Yap</button>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col style="text-align: center">
+            <button style="color: #FF0000; background:none">Şifremi Unuttum!</button>
+          </ion-col>
+        </ion-row>
+      </ion-list>
+
+
+    </ion-list>
+
+  </div>
+
+
+
+
+</ion-content>
+
+--->
+
+
+
+
+
+
+
+
+
+
+
+
+

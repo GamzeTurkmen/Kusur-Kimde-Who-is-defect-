@@ -1,0 +1,48 @@
+page-kusur-detay {
+
+
+  .arkaPhoto{
+    position: relative!important;
+    width: 375px;
+    height: 152px;
+  }
+
+
+  .aktifKutu{
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border:solid 2px red;
+    text-align: center;
+    font-size: 20px;
+    color:red;
+
+  }
+
+  .kutu{
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    border:solid 2px #ffffff;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .textKutu{
+    width: 250px;
+    height: 149px;
+    border-radius: 10px;
+    border: solid 5px #ffffff;
+    background-color: #ffffff;
+  }
+
+
+
+  textarea.text-input {
+    display: block;
+    height: 149px;
+    margin-top: -3px;
+  }
+
+}

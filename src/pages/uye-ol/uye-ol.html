@@ -1,0 +1,45 @@
+
+
+
+<ion-content>
+  <div>
+    <ion-buttons style="position: absolute; margin-top: 15%;">
+      <button  icon-only (click)="goBackLogin()" class="myBackButton">
+        <ion-icon name="arrow-back" style="color: white"></ion-icon>
+      </button>
+    </ion-buttons>
+    <img  style="position: fixed;" src="https://kusurkimde.com/rest_api/imgs/signUpBack.svg">
+
+    <div>
+      <p class="baslik">Üye Ol</p>
+    </div>
+  </div>
+
+  <ion-list inset style="margin-top:48%">
+    <form class="myForm">
+      <ion-row class="myRow">
+        <ion-row style="height: 50px;">
+            <ion-col col-3>
+              <ion-label class="myLabel">+90</ion-label>
+            </ion-col>
+            <ion-col col-9>
+              <ion-item style="width: 90%;">
+                <ion-input  clearInput="true"  name="username" id="loginField1" type="tel"></ion-input>
+              </ion-item>
+            </ion-col>
+        </ion-row>
+
+
+
+
+        <ion-col class="onayButtonCol">
+          <button ion-button class="myOnayButton" style=" background-color: #ff0a0a;" round (click)="goToTelOnayPage()">&#304;LER&#304;</button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+
+
+</ion-content>
+
+

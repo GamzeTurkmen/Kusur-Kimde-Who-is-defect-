@@ -1,0 +1,179 @@
+page-home {
+
+
+
+    .box{
+      position:absolute!important;
+      background-color: #ffffff;
+      box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);
+      border: 25px;
+      border-radius: 5px;
+      height: 70% ;
+      width: 94%;
+      margin-left: 3%;
+      margin-top:43%;
+    }
+
+
+
+    .list-ios[inset] .item {
+      border-bottom: 1px solid #c8c7cc;
+    }
+
+    .list-ios[inset] .item:focus-within {
+      border-bottom: 1px solid red;
+    }
+
+
+
+    .to-be-changed {
+      color: black;
+    }
+
+    input[type=checkbox]:checked  .to-be-changed {
+      color: red;
+    }
+
+
+
+
+
+
+    .tabs-ios .tab-button:hover:not(.disable-hover),
+    .tabs-ios .tab-button[aria-selected=true] {
+      color: #FF0000;
+      font-size: 12px;
+    }
+
+    .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+      color: #FF0000;
+    }
+
+    .tabs-md .tab-button[aria-selected=true] {
+      padding: 0;
+      color: #FF0000;
+      font-size: 12px;
+    }
+
+    .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+      color: #FF0000;
+    }
+
+
+
+    .tabs-ios .tab-button {
+      max-width: 240px;
+      min-height: 49px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #8c8c8c;
+      padding: 0 2px;
+    }
+
+
+    .tabs-md .tab-button {
+      max-width: 240px;
+      min-height: 49px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #8c8c8c;
+      padding: 0 2px;
+    }
+
+
+    .item-block {
+      height: 62.74px !important;
+      //box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);
+    }
+
+    .tabs-ios .tabbar{
+      height: 4em !important;
+      box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);
+
+    }
+
+    .tabs-md .tabbar{
+      height: 4em !important;
+      box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);
+
+    }
+
+
+
+    //iPhone5/SE
+    @media only screen and (min-width: 320px) {
+      .yazi {
+        margin-top: 15px;
+      }
+    }
+
+
+    //GalaxyS5
+    @media only screen and (min-width: 360px) {
+      .yazi {
+        margin-top: 25px;
+      }
+    }
+    @media only screen and (height:667px) and (width:375px){
+      .yazi{
+        margin-top: 20%;
+      }
+    }
+
+    @media only screen and (width:375px) and (height:812px){
+      .yazi{
+        margin-top: 30%;
+      }
+    }
+
+
+    //Pixel2
+    @media only screen and (min-width:411px){
+      .yazi{
+        margin-top: 70px;
+      }
+    }
+
+
+    @media only screen and (min-width:414px){
+      .yazi{
+        margin-top: 22%;
+      }
+    }
+
+
+
+
+
+
+    .border_kirmizi{
+      border-bottom:1px solid red !important;
+    }
+    .renk_kirmizi{
+      color: red !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+

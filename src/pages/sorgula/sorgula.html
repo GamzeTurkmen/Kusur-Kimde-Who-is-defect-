@@ -1,0 +1,141 @@
+
+
+
+<ion-content>
+
+
+  <ion-buttons style="position: absolute; margin-top: 15%;">
+    <button  icon-only (click)="goBackServisler()" style="background: transparent;margin-top:23%;font-size: 14px">
+      <ion-icon name="arrow-back" style="color: white"></ion-icon>
+    </button>
+  </ion-buttons>
+
+
+    <img  style="position: absolute;" src="https://kusurkimde.com/rest_api/imgs/signUpBack.svg">
+
+    <div>
+      <p style="position: absolute; color:white;font-weight:400; font-size:23px ;margin-top:17%;margin-left: 23%">Başvuru Durumlarım</p>
+    </div>
+
+
+
+    <div style="margin-top: 42%" padding="50px">
+      <ion-segment [(ngModel)]="pet">
+        <ion-segment-button value="bekleyen">
+          Bekleyen
+        </ion-segment-button>
+        <ion-segment-button value="sonuçlanan">
+          Sonuçlanan
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+
+
+
+ <!-- x.status == 0 -->
+
+
+
+
+  <ion-list no-lines>
+    <div [ngSwitch]="pet">
+      <ion-list *ngSwitchCase="'bekleyen'" no-lines >
+          <div class="durumKutusu"  *ngFor="let x of users"   (click)="itemSelected(x)">
+            <div *ngIf="x.status == 0 ? 'hidden' : '' ">
+              <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <img style="margin-top: -9px;margin-left: -10px" src="https://kusurkimde.com/rest_api/imgs/kaza.svg">
+                  </ion-col>
+                  <ion-col col-6>
+                    KTT Takip Kodu: {{x.id}}<br> Tarih: {{x.tarih}}
+                  </ion-col>
+                  <ion-col style="margin-top: -5px;">
+                    <button ion-button style="width:79.77px; height:40px; background-color: #FF1D1E;" round (click)="goToKusurDetay(x.id)">Detay</button>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </div>
+          </div>
+      </ion-list>
+
+
+
+
+      <ion-list *ngSwitchCase="'sonuçlanan'" no-lines>
+        <div class="durumKutusu" *ngFor="let x of users"   (click)="itemSelected(x)">
+          <div *ngIf="x.status == 1 ? 'hidden' : '' ">
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <img style="margin-top: -9px;margin-left: -10px" src="https://kusurkimde.com/rest_api/imgs/kaza.svg">
+                </ion-col>
+                <ion-col col-6>
+                  KTT Takip Kodu: {{x.id}}<br> Tarih: {{x.tarih}}
+                </ion-col>
+                <ion-col style="margin-top: -5px;">
+                  <button ion-button style="width:79.77px; height:40px; background-color: #ff1c1c;" round (click)="goToKusurDetay(x.id)">Detay</button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+  </ion-list>
+
+
+<!--
+    <ion-list no-lines>
+    <button ion-item *ngFor="let x of users" (click)="itemSelected(x)">
+      <ion-row>
+         <ion-col>
+           <ion-thumbnail item-start>
+             <img src="https://raw.githubusercontent.com/ionic-team/ionic-preview-app/master/src/assets/img/thumbnail-totoro.png">
+           </ion-thumbnail>
+         </ion-col>
+         <ion-col>
+           <h2>{{x.KTTakip}}</h2>
+         </ion-col>
+         <ion-col>
+           <p>{{x.Tarih}}</p>
+         </ion-col>
+       </ion-row>
+        </button>
+    </ion-list>
+
+    -->
+
+
+  <!--
+  <ion-list no-lines item-start *ngFor="let x of users" (click)="itemSelected(x)">
+    <ion-item class="durumKutusu">
+      <ion-row>
+      </ion-row>
+      <ion-thumbnail >
+        <img style="border-radius: 30px" src="https://raw.githubusercontent.com/ionic-team/ionic-preview-app/master/src/assets/img/thumbnail-totoro.png">
+      </ion-thumbnail>
+      <h2>{{x.KTTakip}}</h2>
+      <p>{{x.Tarih}}</p>
+    </ion-item>
+
+
+
+  </ion-list>
+
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+</ion-content>
+
+

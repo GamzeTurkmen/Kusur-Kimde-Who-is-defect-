@@ -1,0 +1,121 @@
+.tutorial-page {
+
+  .toolbar-background {
+    background: #fff;
+    border-color: transparent;
+  }
+
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .slide-title {
+    margin-top: 2.8rem;
+  }
+
+  .slide-image {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 18px 0;
+    margin-top: 83px;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #272727;
+
+    b {
+      color: #000000;
+    }
+  }
+
+
+  .description{
+    font-size: 20px;
+    margin-top: 15%;
+  }
+
+
+  .prev{
+    background-color: #D5D5D5;
+    font-size:18px;
+    width: 120px;
+    height: 44px;
+    margin-top: 20%;
+    margin-right: 10%;
+  }
+
+
+  .next{
+    background-color: #F00A0A;
+    font-size:18px;
+    width: 120px;
+    height: 44px;
+    margin-top: 20%;
+    margin-left: 15%;
+
+  }
+
+
+
+  .prevO{
+    background-color: #D5D5D5;
+    font-size:18px;
+    width: 120px;
+    height: 44px;
+    margin-top: 38%;;
+    margin-right: 10%;
+
+  }
+
+
+  .nextO{
+    background-color: #F00A0A;
+    font-size:18px;
+    width: 120px;
+    height: 44px;
+    margin-top: 38%;
+    margin-left: 15%;
+
+
+  }
+
+
+
+
+
+
+  .scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #F00A0A;
+    opacity: 1;
+  }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-bottom: 75%;
+
+  }
+
+
+
+}

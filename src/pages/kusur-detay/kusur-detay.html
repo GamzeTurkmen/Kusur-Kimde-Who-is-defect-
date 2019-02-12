@@ -1,0 +1,166 @@
+
+<ion-content>
+
+  <div>
+    <ion-buttons style="position: absolute; margin-top: 15%;">
+      <button  icon-only (click)="goBackSorgulaPage()" style="background: transparent;margin-top:23%;font-size: 14px">
+        <ion-icon name="arrow-back" style="color: white"></ion-icon>
+      </button>
+    </ion-buttons>
+    <img  style="position: absolute" src="https://kusurkimde.com/rest_api/imgs/signUpBack.svg">
+
+    <div>
+      <p style="position: absolute; color:white;font-weight:400; font-size:23px ;margin-top:17%;margin-left: 39%">Detaylar</p>
+    </div>
+  </div>
+
+
+  <div style="margin-top:50%">
+
+
+    <ion-list inset style="padding: 10px">
+
+      <ion-row>
+        <ion-row>
+          <ion-label>Kişi Bilgileri</ion-label>
+        </ion-row>
+        <ion-item>
+          <ion-label id="isim" style="font-size: 15px"><img  margin-right="20px" style="height: 13px; width: 15px;" src="https://kusurkimde.com/rest_api/imgs/redIconKullanici.svg"> </ion-label>
+        </ion-item>
+      </ion-row>
+
+      <ion-row>
+        <ion-row>
+          <ion-label>Telefon</ion-label>
+        </ion-row>
+        <ion-item>
+          <ion-label id="tel" style="font-size: 15px"><img  margin-right="20px" style="height: 13px; width: 15px;" src="https://kusurkimde.com/rest_api/imgs/redIconTel.svg"></ion-label>
+        </ion-item>
+      </ion-row>
+
+      <ion-row>
+        <ion-row>
+          <ion-label>Plaka</ion-label>
+        </ion-row>
+        <ion-item>
+          <ion-label  id="plaka" style="font-size: 15px"><img  margin-right="20px" style="height: 13px; width: 15px;" src="https://kusurkimde.com/rest_api/imgs/redIconPlaka.svg"></ion-label>
+        </ion-item>
+      </ion-row>
+
+      <ion-row>
+        <ion-row>
+          <ion-label>TC</ion-label>
+        </ion-row>
+        <ion-item>
+          <ion-label id="tc"  style="font-size: 15px"><img  margin-right="20px" style="height: 13px; width: 15px;" src="https://kusurkimde.com/rest_api/imgs/redIcontTC.svg"></ion-label>
+        </ion-item>
+      </ion-row>
+    </ion-list>
+
+  </div>
+
+
+
+
+
+  <ion-col style="height: 50px"></ion-col>
+
+
+
+  <ion-list style="padding: 10px">
+    <ion-row>
+      <h5>KTT Görseli</h5>
+    </ion-row>
+    <ion-row style="margin-top : -5%">
+      <p>En Az 1 Adet Tutanak Görseli Ekleyin</p>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-xl="2" class="kutu"><img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"></ion-col>
+      <ion-row style="width: 10px"></ion-row>
+      <ion-col col-xl="2" class="kutu"> <img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"> </ion-col>
+      <ion-row style="width: 10px"></ion-row>
+      <ion-col col-xl="2" class="kutu"><img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"></ion-col>
+      <ion-row style="width: 10px"></ion-row>
+    </ion-row>
+
+    <ion-row style="height: 50px"></ion-row>
+
+    <ion-row>
+      <h5>Kaza Yorumu</h5>
+    </ion-row>
+    <ion-row style="margin-top : -5%">
+      <p style="color: red">Lütfen kısa ve anlaşılabilir bir açıklama yapınız.</p>
+    </ion-row>
+
+
+    <ion-col style="height: 30px"></ion-col>
+
+    <ion-row>
+      <ion-textarea id="aciklama" class="textKutu" ></ion-textarea>
+    </ion-row>
+
+
+
+  </ion-list>
+
+
+
+
+
+
+  <ion-list style="padding: 10px">
+    <ion-row>
+      <h5>Kaza Görseli</h5>
+    </ion-row>
+    <ion-row style="margin-top : -5%">
+      <p>En Az 1 Kaza Görseli Ekleyin</p>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-xl="2" class="kutu"><img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"></ion-col>
+      <ion-row style="width: 10px"></ion-row>
+      <ion-col col-xl="2" class="kutu"> <img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"> </ion-col>
+      <ion-row style="width: 10px"></ion-row>
+      <ion-col col-xl="2" class="kutu"><img src="https://kusurkimde.com/rest_api/imgs/kazaImage.svg"></ion-col>
+    </ion-row>
+
+
+
+    <ion-row style="height: 50px"></ion-row>
+
+    <ion-row>
+      <h5>Durum Notları</h5>
+    </ion-row>
+    <ion-row style="margin-top : -5%">
+      <p style="color: red">Bu kısıma kısa bir açıklama gelebilir </p>
+    </ion-row>
+
+
+    <ion-col style="height: 30px"></ion-col>
+
+
+    <ion-row>
+      <ion-textarea class="textKutu" placeholder="Açıklama"></ion-textarea>
+    </ion-row>
+
+  </ion-list>
+
+  <ion-row style="height: 8%"></ion-row>
+
+  <div>
+    <ion-row style="position: absolute!important;margin-top: -10%">
+      <img  style="width: 375px; height: 152px" src="https://kusurkimde.com/rest_api/imgs/servislerEnd.svg">
+    </ion-row>
+  </div>
+
+  <div>
+    <ion-row>
+      <ion-col style="text-align: center;">
+        <button ion-button style="margin-top: 10%; width:196px; height:44px;box-shadow: 0px 0px 20px 5px rgba(255,0,0,0.40); background-color: #F00A0A" round  (click)="goToKayitTamam()">Kaydet Oluştur</button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+
+</ion-content>

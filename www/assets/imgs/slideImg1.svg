@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 293.655 293.655">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #4b4768;
+        opacity: 0.1;
+      }
+
+      .cls-4, .cls-6, .cls-9 {
+        fill: none;
+      }
+
+      .cls-4, .cls-9 {
+        stroke: #ff9494;
+      }
+
+      .cls-4, .cls-6, .cls-7, .cls-9 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #ff9494;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #4b4668;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        opacity: 0.2;
+      }
+
+      .cls-9 {
+        opacity: 0.5;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="260" height="260" rx="12" transform="translate(36.358 0.173) rotate(8)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1381" data-name="Group 1381" transform="translate(-42.173 -54.173)">
+    <g id="icon" transform="translate(42 54)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" class="cls-1" width="260" height="260" rx="12" transform="translate(36.358 0.173) rotate(8)"/>
+    </g>
+    <g id="Group_1055" data-name="Group 1055" transform="translate(110.5 135.343)">
+      <path id="Path_1290" data-name="Path 1290" class="cls-3" d="M29.733,37.436V13.1a13.252,13.252,0,0,0-8.493,6.86L13.4,35.476V71.409a13.322,13.322,0,0,0,11.433,6.7H129.364A13.1,13.1,0,0,0,142.43,65.039v-3.1h-88.2A24.467,24.467,0,0,1,29.733,37.436Z" transform="translate(7.536 7.346)"/>
+      <line id="Line_30" data-name="Line 30" class="cls-4" x2="22.866" transform="translate(21.753 60.299)"/>
+      <line id="Line_31" data-name="Line 31" class="cls-4" x2="1.633" transform="translate(52.786 60.299)"/>
+      <path id="Path_1291" data-name="Path 1291" class="cls-5" d="M81.379,32.7H57.533A1.543,1.543,0,0,1,55.9,31.066V19.633A1.543,1.543,0,0,1,57.533,18H69.946a1.483,1.483,0,0,1,1.143.49L82.523,29.923A1.634,1.634,0,0,1,81.379,32.7Z" transform="translate(34.451 10.449)"/>
+      <path id="Path_1292" data-name="Path 1292" class="cls-5" d="M29.226,32.7H60.749a1.543,1.543,0,0,0,1.633-1.633V19.633A1.543,1.543,0,0,0,60.749,18H35.6a1.715,1.715,0,0,0-1.47.817L27.756,30.25A1.74,1.74,0,0,0,29.226,32.7Z" transform="translate(16.536 10.449)"/>
+      <path id="Path_1293" data-name="Path 1293" class="cls-6" d="M114.011,35.113,95.555,16.657a12.948,12.948,0,0,0-9.31-3.757H34.47a13.313,13.313,0,0,0-11.76,7.187l-8,16.17a11.96,11.96,0,0,0-1.307,5.88V65.166A13.1,13.1,0,0,0,26.466,78.232H131a13.1,13.1,0,0,0,13.066-13.066V52.1A13.1,13.1,0,0,0,131,39.033h-7.676A13.387,13.387,0,0,1,114.011,35.113Z" transform="translate(7.536 7.22)"/>
+      <circle id="Ellipse_152" data-name="Ellipse 152" class="cls-7" cx="14.7" cy="14.7" r="14.7" transform="translate(37.269 70.915)"/>
+      <circle id="Ellipse_153" data-name="Ellipse 153" class="cls-7" cx="14.7" cy="14.7" r="14.7" transform="translate(102.601 70.915)"/>
+      <line id="Line_32" data-name="Line 32" class="cls-6" x2="6.533" transform="translate(82.185 60.299)"/>
+      <path id="Path_1294" data-name="Path 1294" class="cls-6" d="M96.746,44.753H92.99a5.3,5.3,0,0,1-5.39-5.227h0A5.3,5.3,0,0,1,92.99,34.3H95.6" transform="translate(54.527 20.772)"/>
+      <line id="Line_33" data-name="Line 33" class="cls-6" x2="57.819" transform="translate(81.042 100.314)"/>
+      <line id="Line_34" data-name="Line 34" class="cls-6" x2="48.019" transform="translate(21.59 100.314)"/>
+      <line id="Line_35" data-name="Line 35" class="cls-6" x2="1.307" transform="translate(13.586 100.314)"/>
+      <path id="Path_1295" data-name="Path 1295" class="cls-6" d="M76.379,34.7H52.533A1.543,1.543,0,0,1,50.9,33.066V21.633A1.543,1.543,0,0,1,52.533,20H64.946a1.483,1.483,0,0,1,1.143.49L77.523,31.923A1.634,1.634,0,0,1,76.379,34.7Z" transform="translate(31.285 11.716)"/>
+      <path id="Path_1296" data-name="Path 1296" class="cls-6" d="M24.226,34.7H55.749a1.543,1.543,0,0,0,1.633-1.633V21.633A1.543,1.543,0,0,0,55.749,20H30.6a1.715,1.715,0,0,0-1.47.817L22.756,32.25A1.74,1.74,0,0,0,24.226,34.7Z" transform="translate(13.37 11.716)"/>
+      <line id="Line_36" data-name="Line 36" class="cls-6" x2="8.166" transform="translate(11.953 66.832)"/>
+      <line id="Line_37" data-name="Line 37" class="cls-6" x2="3.267" transform="translate(16.853 70.915)"/>
+      <line id="Line_38" data-name="Line 38" class="cls-6" transform="translate(5.42 66.832)"/>
+      <g id="Group_1055-2" data-name="Group 1055" class="cls-8" transform="translate(1.5 42.169)">
+        <line id="Line_39" data-name="Line 39" class="cls-6" y2="8.166" transform="translate(4.083)"/>
+        <line id="Line_40" data-name="Line 40" class="cls-6" x1="8.166" transform="translate(0 4.083)"/>
+      </g>
+      <g id="Group_1056" data-name="Group 1056" class="cls-8" transform="translate(131.837 26.653)">
+        <line id="Line_41" data-name="Line 41" class="cls-6" y2="8.166" transform="translate(4.083)"/>
+        <line id="Line_42" data-name="Line 42" class="cls-6" x1="8.166" transform="translate(0 4.083)"/>
+      </g>
+      <circle id="Ellipse_154" data-name="Ellipse 154" class="cls-9" cx="4.083" cy="4.083" r="4.083" transform="translate(88.718 1.5)"/>
+    </g>
+  </g>
+</svg>

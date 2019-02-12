@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 293.655 293.655">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #6cffc0;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4, .cls-7 {
+        stroke: #6cffc0;
+      }
+
+      .cls-5 {
+        stroke: #4b4668;
+      }
+
+      .cls-6 {
+        opacity: 0.2;
+      }
+
+      .cls-7 {
+        opacity: 0.5;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="260" height="260" rx="12" transform="translate(36.358 0.173) rotate(8)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1383" data-name="Group 1383" transform="translate(-42.173 -54.173)">
+    <g id="icon" transform="translate(42 54)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" class="cls-1" width="260" height="260" rx="12" transform="translate(36.358 0.173) rotate(8)"/>
+    </g>
+    <g id="Group_1063" data-name="Group 1063" transform="translate(102.2 153.086)">
+      <circle id="Ellipse_158" data-name="Ellipse 158" class="cls-3" cx="15.451" cy="15.451" r="15.451" transform="translate(42.335 56.903)"/>
+      <circle id="Ellipse_159" data-name="Ellipse 159" class="cls-3" cx="15.451" cy="15.451" r="15.451" transform="translate(130.627 56.903)"/>
+      <line id="Line_55" data-name="Line 55" class="cls-4" x2="6.622" transform="translate(129.523 33.727)"/>
+      <circle id="Ellipse_160" data-name="Ellipse 160" class="cls-5" cx="15.451" cy="15.451" r="15.451" transform="translate(37.92 63.525)"/>
+      <circle id="Ellipse_161" data-name="Ellipse 161" class="cls-5" cx="15.451" cy="15.451" r="15.451" transform="translate(126.213 63.525)"/>
+      <line id="Line_56" data-name="Line 56" class="cls-5" x2="78.138" transform="translate(92.662 94.427)"/>
+      <line id="Line_57" data-name="Line 57" class="cls-5" x2="64.895" transform="translate(12.316 94.427)"/>
+      <line id="Line_58" data-name="Line 58" class="cls-5" x2="1.766" transform="translate(1.5 94.427)"/>
+      <g id="Group_1061" data-name="Group 1061" class="cls-6" transform="translate(2.824 40.128)">
+        <line id="Line_59" data-name="Line 59" class="cls-5" y2="11.037" transform="translate(5.518)"/>
+        <line id="Line_60" data-name="Line 60" class="cls-5" x1="11.037" transform="translate(0 5.518)"/>
+      </g>
+      <g id="Group_1062" data-name="Group 1062" class="cls-6" transform="translate(70.589 1.5)">
+        <line id="Line_61" data-name="Line 61" class="cls-5" y2="11.037" transform="translate(5.518)"/>
+        <line id="Line_62" data-name="Line 62" class="cls-5" x1="11.037" transform="translate(0 5.518)"/>
+      </g>
+      <circle id="Ellipse_162" data-name="Ellipse 162" class="cls-7" cx="5.518" cy="5.518" r="5.518" transform="translate(149.389 18.275)"/>
+      <path id="Path_1303" data-name="Path 1303" class="cls-5" d="M82.285,69.9,62.419,8.1H50.5" transform="translate(59.158 7.968)"/>
+      <line id="Line_63" data-name="Line 63" class="cls-5" x2="4.415" transform="translate(19.158 72.354)"/>
+      <path id="Path_1304" data-name="Path 1304" class="cls-5" d="M12.5,50.691a27.591,27.591,0,0,1,55.183,0h33.11A27.6,27.6,0,0,1,128.383,23.1" transform="translate(13.28 26.078)"/>
+      <line id="Line_64" data-name="Line 64" class="cls-5" x2="33.11" transform="translate(69.926 54.696)"/>
+      <line id="Line_65" data-name="Line 65" class="cls-5" transform="translate(111.865 54.696)"/>
+      <path id="Path_1305" data-name="Path 1305" class="cls-5" d="M18.5,32.693V16.8H47.195A13.283,13.283,0,0,1,60.439,30.044v4.415" transform="translate(20.524 18.472)"/>
+      <line id="Line_66" data-name="Line 66" class="cls-5" x2="11.037" transform="translate(14.744 66.836)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,198 @@
+page-uye-ol {
+
+
+  .box{
+    position:absolute!important;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 24px 2px rgba(139,139,139,0.15);
+    border: 25px;
+    border-radius: 5px;
+    height: 78% ;
+    width: 94%;
+    margin-left: 3%;
+    margin-top:35%;
+  }
+
+
+  .myBackButton{
+    background: transparent;
+    margin-top:23%;
+    font-size: 14px
+  }
+
+
+  .baslik{
+    position: absolute;
+    color:white;
+    font-weight:400;
+    font-size:23px ;
+    margin-top:17%;
+    margin-left: 40%;
+  }
+
+
+  .myForm{
+    margin-top: 50%;
+    background: white;
+    width: 90%;
+    margin-left:5%;
+  }
+
+
+  .myRow{
+    margin-left: 5%;
+    margin-top: -18%;
+  }
+
+
+  .myOnayButton{
+    width:196px;height:44px;box-shadow: 0px 0px 20px 5px rgba(255,0,0,0.40);margin-top:20%
+  }
+
+
+  .onayButtonCol{
+    text-align: center;
+    margin-top:35%;
+    margin-bottom: 10%
+  }
+
+
+
+
+
+  .myLabel {
+    margin: 11px 8px 11px 0;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    width: 39px;
+  }
+
+
+
+  .item-block1 {
+    height: 24px !important;
+    width: 30px;
+  }
+
+
+
+
+  .list-ios[inset] .item {
+    border-bottom: 1px solid #c8c7cc;
+  }
+
+  .list-ios[inset] .item:focus-within {
+    border-bottom: 1px solid red;
+    color:red;
+  }
+
+
+
+
+
+
+
+
+  .scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+  }
+
+
+
+
+
+  //iPad
+  @media only screen and (width:768px) and (height: 1024px){
+    .baslik{
+      position: absolute;
+      color:white;
+      font-weight:400;
+      font-size:45px;
+      margin-top:17%;
+      margin-left: 40%;
+    }
+
+
+    .myRow{
+      margin-left: 10%;
+      margin-top: -30%;
+    }
+
+    .myOnayButton{
+      margin-left: -150%;
+      width:100%;
+      height:100%;
+      box-shadow: 0px 0px 20px 5px rgba(255,0,0,0.40);
+      background-color: #ff0a0a;
+      font-size: 25px;
+    }
+
+    .onayButtonCol{
+      margin-top:40%;
+    }
+
+    .myRow2{
+      margin-left: 10%;
+    }
+
+
+
+  }
+
+
+
+  //iPad Pro
+  @media only screen and (width:1024px) and (height: 1366px){
+    .baslik{
+      position: absolute;
+      color:white;
+      font-weight:400;
+      font-size:45px;
+      margin-top:17%;
+      margin-left: 43%;
+    }
+
+
+    .myRow{
+      margin-left: 10%;
+      margin-top: -30%;
+    }
+
+    .myOnayButton{
+      margin-left: -90%;
+      width:80%;
+      height:80%;
+      box-shadow: 0px 0px 20px 5px rgba(255,0,0,0.40);
+      background-color: #ff0a0a;
+      font-size: 30px;
+    }
+
+    .onayButtonCol{
+      margin-top:20%;
+    }
+
+    .myRow2{
+      margin-left: 10%;
+    }
+
+
+  }
+
+
+
+
+
+}
+
+
